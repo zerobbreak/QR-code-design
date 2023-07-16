@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root{
+    ---white-background: hsl(0, 0%, 100%);
+    --font-colour: hsl(212, 45%, 89%);
+    --massive-background: hsl(220, 25%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --font-h1: 'Outfit', sans-serif;
+    --font-h1-weight: 700;
+    --font-paragraph: 'Outfit', sans-serif;
+    --font-paragraph-weight: 400;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+body{
+    font-size: 15px;
+    background-color: var(--massive-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 480px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    /* padding: 20px; */
+    background-color: var(---white-background);
+}
+
+.image-qr__code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.image-qr__code img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+.card__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.card__text h2{
+    font-family: var(--font-h1);
+    font-weight: var(--font-h1-weight);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card__text p{
+    font-size: 15px;
+    font-family: var(--font-paragraph);
+    font-weight: var(--font-paragraph-weight);
+    color: var(--font-colour);
+    text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 380px) {
+    .card-container{
+        width: 80%;
+    }
+}
