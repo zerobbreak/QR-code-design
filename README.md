@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [QR Code design](https://github.com/zerobbreak/QR-code-design)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Demo](https://zerobbreak.github.io/QR-code-design/)
 
 ## My process
 
